@@ -1,6 +1,6 @@
 #  Read
 with open("numbers.txt", "r") as file:
-    numbers = file.read()
+    numbers = file.read().strip()
 #  Create
 numbers = [int(num) for num in numbers]
 #  Separate
