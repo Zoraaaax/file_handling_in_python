@@ -2,7 +2,7 @@
 with open("numbers.txt", "r") as file:
     numbers = file.read()
 #  Create
-numbers = [int(num.strip()) for num in numbers]
+numbers = [int(num) for num in numbers]
 #  Separate
 even_numbers = [num for num in numbers if num % 2 == 0]
 odd_numbers = [num for num in numbers if num % 2 != 0]
