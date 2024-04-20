@@ -8,4 +8,5 @@ even_numbers = [num for num in numbers if num % 2 == 0]
 odd_numbers = [num for num in numbers if num % 2 != 0]
 #  Write
 with open("even.txt", "r") as even_file:
-    
+    for num in even_numbers:
+        
