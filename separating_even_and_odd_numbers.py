@@ -16,4 +16,4 @@ with open("odd.txt", "w") as odd_file:
         odd_file.write(str(num) + '\n')
 
 #  Output
-print("Files 'even.txt' and 'odd.txt' has been created")
+print("Files 'even.txt' and 'odd.txt' has been created.")
