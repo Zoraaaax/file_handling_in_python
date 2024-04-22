@@ -9,4 +9,5 @@ for data in students_data:
     name, gwa = students_data.strip().split(",")
     gwa = gwa(float)
     if gwa <= highest_gwa:
+        highest_gwa = gwa
 #  Output
