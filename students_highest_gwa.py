@@ -10,4 +10,5 @@ for data in students_data:
     gwa = gwa(float)
     if gwa <= highest_gwa:
         highest_gwa = gwa
+        top_student_name = name
 #  Output
