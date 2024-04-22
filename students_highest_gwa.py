@@ -12,3 +12,4 @@ for data in students_data:
         highest_gwa = gwa
         top_student_name = name
 #  Output
+print("The student with highest GWA is", top_student_name, "with a GWA of", highest_gwa)
