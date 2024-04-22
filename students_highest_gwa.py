@@ -7,7 +7,7 @@ top_student_name = ""
 #  Finding the Highest GWA
 for data in students_data:
     name, gwa = data.strip().split(",")
-    gwa = gwa(float)
+    gwa = float(gwa)
     if gwa <= highest_gwa:
         highest_gwa = gwa
         top_student_name = name
