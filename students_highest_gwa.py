@@ -6,5 +6,5 @@ highest_gwa = float('inf')
 top_student_name = ""
 #  Finding the Highest GWA
 for data in students_data:
-    
+    name, gwa = students_data.strip().split(",")
 #  Output
