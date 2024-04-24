@@ -1,5 +1,5 @@
 #  Write the file
-with open ("mylife.txt", "w") as file:
+with open("mylife.txt", "w") as file:
 
 #  While loop
         while True:
