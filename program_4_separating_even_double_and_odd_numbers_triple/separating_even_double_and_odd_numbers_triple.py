@@ -1,5 +1,5 @@
 #  Read
-with open("integers.txt" + "r") as file:
+with open("integers.txt", + "r") as file:
     numbers = file.readlines()
 #  Create
 numbers = [int(num.strip()) for num in numbers]
