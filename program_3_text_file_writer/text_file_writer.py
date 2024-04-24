@@ -10,3 +10,4 @@ with open("mylife.txt", "w") as file:
             break
 
 #  Output
+print("The enter line/s has written at mylife.txt")
