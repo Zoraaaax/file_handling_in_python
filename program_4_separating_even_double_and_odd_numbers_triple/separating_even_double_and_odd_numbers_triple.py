@@ -18,4 +18,4 @@ with open("triple.txt", "w") as triple_odd_file:
         triple_odd_file.write(str(num) + "\n")
 
 #  Output
-print("Files 'double.txt' and 'odd.txt' has been created.")
+print("Files 'double.txt' and 'triple.txt' has been created.")
