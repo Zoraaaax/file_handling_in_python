@@ -12,5 +12,5 @@ with open("double.txt", "w") as double_even_file:
         double_even_file.write(str(num) + "\n")
 
 with open("triple.txt", "w") as triple_odd_file:
-    
+    for num in cube_odd_numbers:
 #  Output
