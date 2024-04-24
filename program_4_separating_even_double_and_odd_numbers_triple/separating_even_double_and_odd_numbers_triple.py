@@ -10,4 +10,5 @@ cube_odd_numbers = [num ** 3 for num in numbers if num != 0]
 with open("double.txt", "w") as double_even_file:
     for num in square_even_numbers:
         double_even_file.write(str(num) + "\n")
+        
 #  Output
