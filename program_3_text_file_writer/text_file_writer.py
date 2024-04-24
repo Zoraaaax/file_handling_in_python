@@ -6,5 +6,7 @@ with open("mylife.txt", "w") as file:
         line = input("Enter a line: ")
         file.writelines(line + "\n")
         more_lines = input("Are there more lines (y/n)? ")
+        if more_lines.lower() != "y":
+            break
 
 #  Output
