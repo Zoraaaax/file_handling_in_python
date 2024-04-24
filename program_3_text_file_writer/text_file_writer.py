@@ -5,4 +5,6 @@ with open("mylife.txt", "w") as file:
     while True:
         line = input("Enter a line: ")
         file.writelines(line + "\n")
+        more_lines = input("Are there more lines (y/n)? ")
+
 #  Output
